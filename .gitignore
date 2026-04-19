@@ -1,0 +1,23 @@
+# Local environment
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Local generated data
+vectorstore/
+data/processed/manifest.json
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python packaging artifacts
+*.egg-info/
+*.egg-info
